@@ -81,7 +81,11 @@ variable "cluster" {
 variable "host" {
   description = "Name (or IP) of the host you want to deploy the VM to."
   type        = string
-  default     = "172.28.224.160"
+  # demo users - you can change the below to any of the following:
+  # 172.28.224.158
+  # 172.28.224.159
+  # 172.28.224.160
+  default     = "172.28.224.159"
 }
 
 # Network Section
